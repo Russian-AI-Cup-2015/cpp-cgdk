@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <VisualStudioProject
 	ProjectType="Visual C++"
-	Version="8,00"
+	Version="9,00"
 	Name="cpp-cgdk"
 	ProjectGUID="{717342D9-54DB-4D44-AC57-E269649EA753}"
 	RootNamespace="cppcgdk"
 	Keyword="Win32Proj"
+	TargetFrameworkVersion="131072"
 	>
 	<Platforms>
 		<Platform
@@ -40,14 +41,11 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories="C:\Program Files\Microsoft SDKs\Windows\v6.0A\Include"
 				PreprocessorDefinitions="WIN32;_DEBUG;_CONSOLE"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
 				RuntimeLibrary="3"
-				UsePrecompiledHeader="0"
 				WarningLevel="4"
-				Detect64BitPortabilityProblems="true"
 				DebugInformationFormat="4"
 			/>
 			<Tool
@@ -63,9 +61,10 @@
 				Name="VCLinkerTool"
 				AdditionalDependencies="ws2_32.lib"
 				LinkIncremental="2"
-				AdditionalLibraryDirectories="C:\Program Files\Microsoft SDKs\Windows\v6.0A\Lib"
 				GenerateDebugInformation="true"
 				SubSystem="1"
+				RandomizedBaseAddress="1"
+				DataExecutionPrevention="0"
 				TargetMachine="1"
 			/>
 			<Tool
@@ -85,9 +84,6 @@
 			/>
 			<Tool
 				Name="VCAppVerifierTool"
-			/>
-			<Tool
-				Name="VCWebDeploymentTool"
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
@@ -118,12 +114,10 @@
 			/>
 			<Tool
 				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="C:\Program Files\Microsoft SDKs\Windows\v6.0A\Include"
-				PreprocessorDefinitions="WIN32;NDEBUG;_CONSOLE;ONLINE_JUDGE"
+				PreprocessorDefinitions="WIN32;NDEBUG;_CONSOLE;ONLINE_JUDGE;"
 				RuntimeLibrary="2"
 				UsePrecompiledHeader="0"
 				WarningLevel="4"
-				Detect64BitPortabilityProblems="true"
 				DebugInformationFormat="3"
 			/>
 			<Tool
@@ -139,11 +133,12 @@
 				Name="VCLinkerTool"
 				AdditionalDependencies="ws2_32.lib"
 				LinkIncremental="1"
-				AdditionalLibraryDirectories="C:\Program Files\Microsoft SDKs\Windows\v6.0A\Lib"
 				GenerateDebugInformation="true"
 				SubSystem="1"
 				OptimizeReferences="2"
 				EnableCOMDATFolding="2"
+				RandomizedBaseAddress="1"
+				DataExecutionPrevention="0"
 				TargetMachine="1"
 			/>
 			<Tool
@@ -163,9 +158,6 @@
 			/>
 			<Tool
 				Name="VCAppVerifierTool"
-			/>
-			<Tool
-				Name="VCWebDeploymentTool"
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
@@ -224,23 +216,39 @@
 					>
 				</File>
 				<File
-					RelativePath=".\model\Hockeyist.cpp"
-					>
-				</File>
-				<File
 					RelativePath=".\model\Move.cpp"
 					>
 				</File>
-				<File
+    			<File
 					RelativePath=".\model\Player.cpp"
+					>
+				</File>
+    			<File
+					RelativePath=".\model\Bonus.cpp"
+					>
+				</File>
+    			<File
+					RelativePath=".\model\Car.cpp"
+					>
+				</File>
+    			<File
+					RelativePath=".\model\CircularUnit.cpp"
+					>
+				</File>
+    			<File
+					RelativePath=".\model\OilSlick.cpp"
+					>
+				</File>
+    			<File
+					RelativePath=".\model\Projectile.cpp"
+					>
+				</File>
+    			<File
+					RelativePath=".\model\RectangularUnit.cpp"
 					>
 				</File>
 				<File
 					RelativePath=".\model\PlayerContext.cpp"
-					>
-				</File>
-				<File
-					RelativePath=".\model\Puck.cpp"
 					>
 				</File>
 				<File
@@ -278,23 +286,7 @@
 				Name="model"
 				>
 				<File
-					RelativePath=".\model\ActionType.h"
-					>
-				</File>
-				<File
 					RelativePath=".\model\Game.h"
-					>
-				</File>
-				<File
-					RelativePath=".\model\Hockeyist.h"
-					>
-				</File>
-				<File
-					RelativePath=".\model\HockeyistState.h"
-					>
-				</File>
-				<File
-					RelativePath=".\model\HockeyistType.h"
 					>
 				</File>
 				<File
@@ -310,10 +302,6 @@
 					>
 				</File>
 				<File
-					RelativePath=".\model\Puck.h"
-					>
-				</File>
-				<File
 					RelativePath=".\model\Unit.h"
 					>
 				</File>
@@ -321,7 +309,51 @@
 					RelativePath=".\model\World.h"
 					>
 				</File>
-			</Filter>
+    			<File
+					RelativePath=".\model\Bonus.h"
+					>
+				</File>
+    			<File
+					RelativePath=".\model\Car.h"
+					>
+				</File>
+    			<File
+					RelativePath=".\model\CircularUnit.h"
+					>
+				</File>
+    			<File
+					RelativePath=".\model\OilSlick.h"
+					>
+				</File>
+    			<File
+					RelativePath=".\model\Projectile.h"
+					>
+				</File>
+    			<File
+					RelativePath=".\model\RectangularUnit.h"
+					>
+				</File>
+    			<File
+					RelativePath=".\model\BonusType.h"
+					>
+				</File>
+    			<File
+					RelativePath=".\model\CarType.h"
+					>
+				</File>
+    			<File
+					RelativePath=".\model\TileType.h"
+					>
+				</File>
+    			<File
+					RelativePath=".\model\ProjectileType.h"
+					>
+				</File>
+    			<File
+					RelativePath=".\model\Direction.h"
+					>
+				</File>
+            </Filter>
 			<Filter
 				Name="csimplesocket"
 				>

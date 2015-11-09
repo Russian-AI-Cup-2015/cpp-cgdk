@@ -54,7 +54,22 @@
     <ClCompile Include="model\Game.cpp">
       <Filter>Source Files\model</Filter>
     </ClCompile>
-    <ClCompile Include="model\Hockeyist.cpp">
+    <ClCompile Include="model\Bonus.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="model\Car.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="model\CircularUnit.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="model\OilSlick.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="model\Projectile.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="model\RectangularUnit.cpp">
       <Filter>Source Files\model</Filter>
     </ClCompile>
     <ClCompile Include="model\Move.cpp">
@@ -64,9 +79,6 @@
       <Filter>Source Files\model</Filter>
     </ClCompile>
     <ClCompile Include="model\PlayerContext.cpp">
-      <Filter>Source Files\model</Filter>
-    </ClCompile>
-    <ClCompile Include="model\Puck.cpp">
       <Filter>Source Files\model</Filter>
     </ClCompile>
     <ClCompile Include="model\Unit.cpp">
@@ -89,19 +101,7 @@
     <ClInclude Include="Strategy.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="model\ActionType.h">
-      <Filter>Header Files\model</Filter>
-    </ClInclude>
     <ClInclude Include="model\Game.h">
-      <Filter>Header Files\model</Filter>
-    </ClInclude>
-    <ClInclude Include="model\Hockeyist.h">
-      <Filter>Header Files\model</Filter>
-    </ClInclude>
-    <ClInclude Include="model\HockeyistState.h">
-      <Filter>Header Files\model</Filter>
-    </ClInclude>
-    <ClInclude Include="model\HockeyistType.h">
       <Filter>Header Files\model</Filter>
     </ClInclude>
     <ClInclude Include="model\Move.h">
@@ -113,13 +113,43 @@
     <ClInclude Include="model\PlayerContext.h">
       <Filter>Header Files\model</Filter>
     </ClInclude>
-    <ClInclude Include="model\Puck.h">
+    <ClInclude Include="model\Bonus.h">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="model\Car.h">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="model\CircularUnit.h">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="model\OilSlick.h">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="model\Projectile.h">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="model\RectangularUnit.h">
       <Filter>Header Files\model</Filter>
     </ClInclude>
     <ClInclude Include="model\Unit.h">
       <Filter>Header Files\model</Filter>
     </ClInclude>
     <ClInclude Include="model\World.h">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="model\ProjectileType.h">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="model\CarType.h">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="model\BonusType.h">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="model\Direction.h">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="model\TileType.h">
       <Filter>Header Files\model</Filter>
     </ClInclude>
     <ClInclude Include="csimplesocket\ActiveSocket.h">

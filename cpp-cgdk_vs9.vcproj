@@ -216,23 +216,39 @@
 					>
 				</File>
 				<File
-					RelativePath=".\model\Hockeyist.cpp"
-					>
-				</File>
-				<File
 					RelativePath=".\model\Move.cpp"
 					>
 				</File>
-				<File
+    			<File
 					RelativePath=".\model\Player.cpp"
+					>
+				</File>
+    			<File
+					RelativePath=".\model\Bonus.cpp"
+					>
+				</File>
+    			<File
+					RelativePath=".\model\Car.cpp"
+					>
+				</File>
+    			<File
+					RelativePath=".\model\CircularUnit.cpp"
+					>
+				</File>
+    			<File
+					RelativePath=".\model\OilSlick.cpp"
+					>
+				</File>
+    			<File
+					RelativePath=".\model\Projectile.cpp"
+					>
+				</File>
+    			<File
+					RelativePath=".\model\RectangularUnit.cpp"
 					>
 				</File>
 				<File
 					RelativePath=".\model\PlayerContext.cpp"
-					>
-				</File>
-				<File
-					RelativePath=".\model\Puck.cpp"
 					>
 				</File>
 				<File
@@ -270,23 +286,7 @@
 				Name="model"
 				>
 				<File
-					RelativePath=".\model\ActionType.h"
-					>
-				</File>
-				<File
 					RelativePath=".\model\Game.h"
-					>
-				</File>
-				<File
-					RelativePath=".\model\Hockeyist.h"
-					>
-				</File>
-				<File
-					RelativePath=".\model\HockeyistState.h"
-					>
-				</File>
-				<File
-					RelativePath=".\model\HockeyistType.h"
 					>
 				</File>
 				<File
@@ -302,10 +302,6 @@
 					>
 				</File>
 				<File
-					RelativePath=".\model\Puck.h"
-					>
-				</File>
-				<File
 					RelativePath=".\model\Unit.h"
 					>
 				</File>
@@ -313,7 +309,51 @@
 					RelativePath=".\model\World.h"
 					>
 				</File>
-			</Filter>
+    			<File
+					RelativePath=".\model\Bonus.h"
+					>
+				</File>
+    			<File
+					RelativePath=".\model\Car.h"
+					>
+				</File>
+    			<File
+					RelativePath=".\model\CircularUnit.h"
+					>
+				</File>
+    			<File
+					RelativePath=".\model\OilSlick.h"
+					>
+				</File>
+    			<File
+					RelativePath=".\model\Projectile.h"
+					>
+				</File>
+    			<File
+					RelativePath=".\model\RectangularUnit.h"
+					>
+				</File>
+    			<File
+					RelativePath=".\model\BonusType.h"
+					>
+				</File>
+    			<File
+					RelativePath=".\model\CarType.h"
+					>
+				</File>
+    			<File
+					RelativePath=".\model\TileType.h"
+					>
+				</File>
+    			<File
+					RelativePath=".\model\ProjectileType.h"
+					>
+				</File>
+    			<File
+					RelativePath=".\model\Direction.h"
+					>
+				</File>
+            </Filter>
 			<Filter
 				Name="csimplesocket"
 				>
