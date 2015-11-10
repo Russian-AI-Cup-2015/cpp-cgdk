@@ -845,7 +845,7 @@ int RemoteProcessClient::readInt() {
     vector<signed char> bytes = this->readBytes(INTEGER_SIZE_BYTES);
 
     if (this->isLittleEndianMachine() != LITTLE_ENDIAN_BYTE_ORDER) {
-        reverse(&bytes[0], &bytes[INTEGER_SIZE_BYTES - 1]);
+        reverse(bytes.begin(), bytes.end());
     }
 
     int value;
@@ -902,7 +902,7 @@ void RemoteProcessClient::writeInt(int value) {
     memcpy(&bytes[0], &value, INTEGER_SIZE_BYTES);
 
     if (this->isLittleEndianMachine() != LITTLE_ENDIAN_BYTE_ORDER) {
-        reverse(&bytes[0], &bytes[INTEGER_SIZE_BYTES - 1]);
+        reverse(bytes.begin(), bytes.end());
     }
 
     this->writeBytes(bytes);
@@ -930,7 +930,7 @@ long long RemoteProcessClient::readLong() {
     vector<signed char> bytes = this->readBytes(LONG_SIZE_BYTES);
 
     if (this->isLittleEndianMachine() != LITTLE_ENDIAN_BYTE_ORDER) {
-        reverse(&bytes[0], &bytes[LONG_SIZE_BYTES - 1]);
+        reverse(bytes.begin(), bytes.end());
     }
 
     long long value;
@@ -946,7 +946,7 @@ void RemoteProcessClient::writeLong(long long value) {
     memcpy(&bytes[0], &value, LONG_SIZE_BYTES);
 
     if (this->isLittleEndianMachine() != LITTLE_ENDIAN_BYTE_ORDER) {
-        reverse(&bytes[0], &bytes[LONG_SIZE_BYTES - 1]);
+        reverse(bytes.begin(), bytes.end());
     }
 
     this->writeBytes(bytes);
