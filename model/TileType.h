@@ -18,7 +18,8 @@ namespace model {
         TOP_HEADED_T = 9,
         BOTTOM_HEADED_T = 10,
         CROSSROADS = 11,
-        _TILE_TYPE_COUNT_ = 12
+        UNKNOWN = 12,
+        _TILE_TYPE_COUNT_ = 13
     };
 }
 

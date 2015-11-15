@@ -24,6 +24,7 @@ namespace model {
         double durability;
         double enginePower;
         double wheelTurn;
+        int nextWaypointIndex;
         int nextWaypointX;
         int nextWaypointY;
         bool finishedTrack;
@@ -34,7 +35,7 @@ namespace model {
                 CarType type, int projectileCount, int nitroChargeCount, int oilCanisterCount,
                 int remainingProjectileCooldownTicks, int remainingNitroCooldownTicks, int remainingOilCooldownTicks,
                 int remainingNitroTicks, int remainingOiledTicks, double durability, double enginePower,
-                double wheelTurn, int nextWaypointX, int nextWaypointY, bool finishedTrack);
+                double wheelTurn, int nextWaypointIndex, int nextWaypointX, int nextWaypointY, bool finishedTrack);
 
         long long getPlayerId() const;
         int getTeammateIndex() const;
@@ -51,6 +52,7 @@ namespace model {
         double getDurability() const;
         double getEnginePower() const;
         double getWheelTurn() const;
+        int getNextWaypointIndex() const;
         int getNextWaypointX() const;
         int getNextWaypointY() const;
         bool isFinishedTrack() const;
