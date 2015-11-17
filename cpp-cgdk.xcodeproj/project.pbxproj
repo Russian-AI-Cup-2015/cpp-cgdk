@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAAE44521BF7B0480066924A /* ActiveSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAAE44221BF7B0480066924A /* ActiveSocket.cpp */; };
+		FAAE44531BF7B0480066924A /* HTTPActiveSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAAE44251BF7B0480066924A /* HTTPActiveSocket.cpp */; };
+		FAAE44541BF7B0480066924A /* PassiveSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAAE44271BF7B0480066924A /* PassiveSocket.cpp */; };
+		FAAE44551BF7B0480066924A /* SimpleSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAAE44291BF7B0480066924A /* SimpleSocket.cpp */; };
+		FAAE44561BF7B0480066924A /* Bonus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAAE442D1BF7B0480066924A /* Bonus.cpp */; };
+		FAAE44571BF7B0480066924A /* Car.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAAE44301BF7B0480066924A /* Car.cpp */; };
+		FAAE44581BF7B0480066924A /* CircularUnit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAAE44331BF7B0480066924A /* CircularUnit.cpp */; };
+		FAAE44591BF7B0480066924A /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAAE44361BF7B0480066924A /* Game.cpp */; };
+		FAAE445A1BF7B0480066924A /* Move.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAAE44381BF7B0480066924A /* Move.cpp */; };
+		FAAE445B1BF7B0480066924A /* OilSlick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAAE443A1BF7B0480066924A /* OilSlick.cpp */; };
+		FAAE445C1BF7B0480066924A /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAAE443C1BF7B0480066924A /* Player.cpp */; };
+		FAAE445D1BF7B0480066924A /* PlayerContext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAAE443E1BF7B0480066924A /* PlayerContext.cpp */; };
+		FAAE445E1BF7B0480066924A /* Projectile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAAE44401BF7B0480066924A /* Projectile.cpp */; };
+		FAAE445F1BF7B0480066924A /* RectangularUnit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAAE44431BF7B0480066924A /* RectangularUnit.cpp */; };
+		FAAE44601BF7B0480066924A /* Unit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAAE44461BF7B0480066924A /* Unit.cpp */; };
+		FAAE44611BF7B0480066924A /* World.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAAE44481BF7B0480066924A /* World.cpp */; };
+		FAAE44621BF7B0480066924A /* MyStrategy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAAE444A1BF7B0480066924A /* MyStrategy.cpp */; };
+		FAAE44631BF7B0480066924A /* RemoteProcessClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAAE444C1BF7B0480066924A /* RemoteProcessClient.cpp */; };
+		FAAE44641BF7B0480066924A /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAAE444E1BF7B0480066924A /* Runner.cpp */; };
+		FAAE44651BF7B0480066924A /* Strategy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAAE44501BF7B0480066924A /* Strategy.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FAA5551F1BF7AFAC00888F0B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FAA555211BF7AFAC00888F0B /* MyStrategy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MyStrategy; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAAE44221BF7B0480066924A /* ActiveSocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ActiveSocket.cpp; sourceTree = "<group>"; };
+		FAAE44231BF7B0480066924A /* ActiveSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActiveSocket.h; sourceTree = "<group>"; };
+		FAAE44241BF7B0480066924A /* Host.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Host.h; sourceTree = "<group>"; };
+		FAAE44251BF7B0480066924A /* HTTPActiveSocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HTTPActiveSocket.cpp; sourceTree = "<group>"; };
+		FAAE44261BF7B0480066924A /* HTTPActiveSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPActiveSocket.h; sourceTree = "<group>"; };
+		FAAE44271BF7B0480066924A /* PassiveSocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PassiveSocket.cpp; sourceTree = "<group>"; };
+		FAAE44281BF7B0480066924A /* PassiveSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassiveSocket.h; sourceTree = "<group>"; };
+		FAAE44291BF7B0480066924A /* SimpleSocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleSocket.cpp; sourceTree = "<group>"; };
+		FAAE442A1BF7B0480066924A /* SimpleSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleSocket.h; sourceTree = "<group>"; };
+		FAAE442B1BF7B0480066924A /* StatTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatTimer.h; sourceTree = "<group>"; };
+		FAAE442D1BF7B0480066924A /* Bonus.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bonus.cpp; sourceTree = "<group>"; };
+		FAAE442E1BF7B0480066924A /* Bonus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bonus.h; sourceTree = "<group>"; };
+		FAAE442F1BF7B0480066924A /* BonusType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BonusType.h; sourceTree = "<group>"; };
+		FAAE44301BF7B0480066924A /* Car.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Car.cpp; sourceTree = "<group>"; };
+		FAAE44311BF7B0480066924A /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		FAAE44321BF7B0480066924A /* CarType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarType.h; sourceTree = "<group>"; };
+		FAAE44331BF7B0480066924A /* CircularUnit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CircularUnit.cpp; sourceTree = "<group>"; };
+		FAAE44341BF7B0480066924A /* CircularUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircularUnit.h; sourceTree = "<group>"; };
+		FAAE44351BF7B0480066924A /* Direction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Direction.h; sourceTree = "<group>"; };
+		FAAE44361BF7B0480066924A /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		FAAE44371BF7B0480066924A /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		FAAE44381BF7B0480066924A /* Move.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Move.cpp; sourceTree = "<group>"; };
+		FAAE44391BF7B0480066924A /* Move.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Move.h; sourceTree = "<group>"; };
+		FAAE443A1BF7B0480066924A /* OilSlick.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OilSlick.cpp; sourceTree = "<group>"; };
+		FAAE443B1BF7B0480066924A /* OilSlick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OilSlick.h; sourceTree = "<group>"; };
+		FAAE443C1BF7B0480066924A /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		FAAE443D1BF7B0480066924A /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		FAAE443E1BF7B0480066924A /* PlayerContext.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PlayerContext.cpp; sourceTree = "<group>"; };
+		FAAE443F1BF7B0480066924A /* PlayerContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerContext.h; sourceTree = "<group>"; };
+		FAAE44401BF7B0480066924A /* Projectile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Projectile.cpp; sourceTree = "<group>"; };
+		FAAE44411BF7B0480066924A /* Projectile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Projectile.h; sourceTree = "<group>"; };
+		FAAE44421BF7B0480066924A /* ProjectileType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectileType.h; sourceTree = "<group>"; };
+		FAAE44431BF7B0480066924A /* RectangularUnit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RectangularUnit.cpp; sourceTree = "<group>"; };
+		FAAE44441BF7B0480066924A /* RectangularUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectangularUnit.h; sourceTree = "<group>"; };
+		FAAE44451BF7B0480066924A /* TileType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileType.h; sourceTree = "<group>"; };
+		FAAE44461BF7B0480066924A /* Unit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Unit.cpp; sourceTree = "<group>"; };
+		FAAE44471BF7B0480066924A /* Unit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Unit.h; sourceTree = "<group>"; };
+		FAAE44481BF7B0480066924A /* World.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = World.cpp; sourceTree = "<group>"; };
+		FAAE44491BF7B0480066924A /* World.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = World.h; sourceTree = "<group>"; };
+		FAAE444A1BF7B0480066924A /* MyStrategy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MyStrategy.cpp; sourceTree = SOURCE_ROOT; };
+		FAAE444B1BF7B0480066924A /* MyStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyStrategy.h; sourceTree = SOURCE_ROOT; };
+		FAAE444C1BF7B0480066924A /* RemoteProcessClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RemoteProcessClient.cpp; sourceTree = SOURCE_ROOT; };
+		FAAE444D1BF7B0480066924A /* RemoteProcessClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteProcessClient.h; sourceTree = SOURCE_ROOT; };
+		FAAE444E1BF7B0480066924A /* Runner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Runner.cpp; sourceTree = SOURCE_ROOT; };
+		FAAE444F1BF7B0480066924A /* Runner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Runner.h; sourceTree = SOURCE_ROOT; };
+		FAAE44501BF7B0480066924A /* Strategy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Strategy.cpp; sourceTree = SOURCE_ROOT; };
+		FAAE44511BF7B0480066924A /* Strategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Strategy.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAA5551E1BF7AFAC00888F0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAA555181BF7AFAC00888F0B = {
+			isa = PBXGroup;
+			children = (
+				FAA555231BF7AFAC00888F0B /* src */,
+				FAA555221BF7AFAC00888F0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAA555221BF7AFAC00888F0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAA555211BF7AFAC00888F0B /* MyStrategy */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAA555231BF7AFAC00888F0B /* src */ = {
+			isa = PBXGroup;
+			children = (
+				FAAE44211BF7B0480066924A /* csimplesocket */,
+				FAAE442C1BF7B0480066924A /* model */,
+				FAAE444A1BF7B0480066924A /* MyStrategy.cpp */,
+				FAAE444B1BF7B0480066924A /* MyStrategy.h */,
+				FAAE444C1BF7B0480066924A /* RemoteProcessClient.cpp */,
+				FAAE444D1BF7B0480066924A /* RemoteProcessClient.h */,
+				FAAE444E1BF7B0480066924A /* Runner.cpp */,
+				FAAE444F1BF7B0480066924A /* Runner.h */,
+				FAAE44501BF7B0480066924A /* Strategy.cpp */,
+				FAAE44511BF7B0480066924A /* Strategy.h */,
+			);
+			name = src;
+			path = "cpp-cgdk";
+			sourceTree = "<group>";
+		};
+		FAAE44211BF7B0480066924A /* csimplesocket */ = {
+			isa = PBXGroup;
+			children = (
+				FAAE44221BF7B0480066924A /* ActiveSocket.cpp */,
+				FAAE44231BF7B0480066924A /* ActiveSocket.h */,
+				FAAE44241BF7B0480066924A /* Host.h */,
+				FAAE44251BF7B0480066924A /* HTTPActiveSocket.cpp */,
+				FAAE44261BF7B0480066924A /* HTTPActiveSocket.h */,
+				FAAE44271BF7B0480066924A /* PassiveSocket.cpp */,
+				FAAE44281BF7B0480066924A /* PassiveSocket.h */,
+				FAAE44291BF7B0480066924A /* SimpleSocket.cpp */,
+				FAAE442A1BF7B0480066924A /* SimpleSocket.h */,
+				FAAE442B1BF7B0480066924A /* StatTimer.h */,
+			);
+			path = csimplesocket;
+			sourceTree = SOURCE_ROOT;
+		};
+		FAAE442C1BF7B0480066924A /* model */ = {
+			isa = PBXGroup;
+			children = (
+				FAAE442D1BF7B0480066924A /* Bonus.cpp */,
+				FAAE442E1BF7B0480066924A /* Bonus.h */,
+				FAAE442F1BF7B0480066924A /* BonusType.h */,
+				FAAE44301BF7B0480066924A /* Car.cpp */,
+				FAAE44311BF7B0480066924A /* Car.h */,
+				FAAE44321BF7B0480066924A /* CarType.h */,
+				FAAE44331BF7B0480066924A /* CircularUnit.cpp */,
+				FAAE44341BF7B0480066924A /* CircularUnit.h */,
+				FAAE44351BF7B0480066924A /* Direction.h */,
+				FAAE44361BF7B0480066924A /* Game.cpp */,
+				FAAE44371BF7B0480066924A /* Game.h */,
+				FAAE44381BF7B0480066924A /* Move.cpp */,
+				FAAE44391BF7B0480066924A /* Move.h */,
+				FAAE443A1BF7B0480066924A /* OilSlick.cpp */,
+				FAAE443B1BF7B0480066924A /* OilSlick.h */,
+				FAAE443C1BF7B0480066924A /* Player.cpp */,
+				FAAE443D1BF7B0480066924A /* Player.h */,
+				FAAE443E1BF7B0480066924A /* PlayerContext.cpp */,
+				FAAE443F1BF7B0480066924A /* PlayerContext.h */,
+				FAAE44401BF7B0480066924A /* Projectile.cpp */,
+				FAAE44411BF7B0480066924A /* Projectile.h */,
+				FAAE44421BF7B0480066924A /* ProjectileType.h */,
+				FAAE44431BF7B0480066924A /* RectangularUnit.cpp */,
+				FAAE44441BF7B0480066924A /* RectangularUnit.h */,
+				FAAE44451BF7B0480066924A /* TileType.h */,
+				FAAE44461BF7B0480066924A /* Unit.cpp */,
+				FAAE44471BF7B0480066924A /* Unit.h */,
+				FAAE44481BF7B0480066924A /* World.cpp */,
+				FAAE44491BF7B0480066924A /* World.h */,
+			);
+			path = model;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAA555201BF7AFAC00888F0B /* MyStrategy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA555281BF7AFAC00888F0B /* Build configuration list for PBXNativeTarget "MyStrategy" */;
+			buildPhases = (
+				FAA5551D1BF7AFAC00888F0B /* Sources */,
+				FAA5551E1BF7AFAC00888F0B /* Frameworks */,
+				FAA5551F1BF7AFAC00888F0B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyStrategy;
+			productName = "cpp-cgdk";
+			productReference = FAA555211BF7AFAC00888F0B /* MyStrategy */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAA555191BF7AFAC00888F0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = AICUP;
+				TargetAttributes = {
+					FAA555201BF7AFAC00888F0B = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = FAA5551C1BF7AFAC00888F0B /* Build configuration list for PBXProject "cpp-cgdk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FAA555181BF7AFAC00888F0B;
+			productRefGroup = FAA555221BF7AFAC00888F0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAA555201BF7AFAC00888F0B /* MyStrategy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAA5551D1BF7AFAC00888F0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAAE445A1BF7B0480066924A /* Move.cpp in Sources */,
+				FAAE44581BF7B0480066924A /* CircularUnit.cpp in Sources */,
+				FAAE44611BF7B0480066924A /* World.cpp in Sources */,
+				FAAE44571BF7B0480066924A /* Car.cpp in Sources */,
+				FAAE44651BF7B0480066924A /* Strategy.cpp in Sources */,
+				FAAE44551BF7B0480066924A /* SimpleSocket.cpp in Sources */,
+				FAAE445D1BF7B0480066924A /* PlayerContext.cpp in Sources */,
+				FAAE44631BF7B0480066924A /* RemoteProcessClient.cpp in Sources */,
+				FAAE44591BF7B0480066924A /* Game.cpp in Sources */,
+				FAAE445C1BF7B0480066924A /* Player.cpp in Sources */,
+				FAAE44531BF7B0480066924A /* HTTPActiveSocket.cpp in Sources */,
+				FAAE44621BF7B0480066924A /* MyStrategy.cpp in Sources */,
+				FAAE44541BF7B0480066924A /* PassiveSocket.cpp in Sources */,
+				FAAE44601BF7B0480066924A /* Unit.cpp in Sources */,
+				FAAE44641BF7B0480066924A /* Runner.cpp in Sources */,
+				FAAE445B1BF7B0480066924A /* OilSlick.cpp in Sources */,
+				FAAE445F1BF7B0480066924A /* RectangularUnit.cpp in Sources */,
+				FAAE44561BF7B0480066924A /* Bonus.cpp in Sources */,
+				FAAE44521BF7B0480066924A /* ActiveSocket.cpp in Sources */,
+				FAAE445E1BF7B0480066924A /* Projectile.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FAA555261BF7AFAC00888F0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FAA555271BF7AFAC00888F0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FAA555291BF7AFAC00888F0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					ONLINE_JUDGE,
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = (
+					"-fno-optimize-sibling-calls",
+					"-fno-strict-aliasing",
+				);
+				OTHER_LIBTOOLFLAGS = "-lm";
+				PRODUCT_NAME = MyStrategy;
+				WARNING_LDFLAGS = "-Wall";
+			};
+			name = Debug;
+		};
+		FAA5552A1BF7AFAC00888F0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ONLINE_JUDGE;
+				OTHER_LDFLAGS = (
+					"-fno-optimize-sibling-calls",
+					"-fno-strict-aliasing",
+				);
+				OTHER_LIBTOOLFLAGS = "-lm";
+				PRODUCT_NAME = MyStrategy;
+				WARNING_LDFLAGS = "-Wall";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAA5551C1BF7AFAC00888F0B /* Build configuration list for PBXProject "cpp-cgdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA555261BF7AFAC00888F0B /* Debug */,
+				FAA555271BF7AFAC00888F0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA555281BF7AFAC00888F0B /* Build configuration list for PBXNativeTarget "MyStrategy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA555291BF7AFAC00888F0B /* Debug */,
+				FAA5552A1BF7AFAC00888F0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAA555191BF7AFAC00888F0B /* Project object */;
+}
